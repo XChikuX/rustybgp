@@ -1,6 +1,6 @@
 # RustyBGP: BGP implementation in Rust
 
-[![Cargo Build](https://github.com/xchikux/rustbgp/actions/workflows/rust.yml/badge.svg?event=push)](https://github.com/xchikux/rustbgp/actions/workflows/rust.yml)
+[![Cargo Build](https://github.com/xchikux/rustybgp/actions/workflows/rust.yml/badge.svg?event=push)](https://github.com/xchikux/rustybgp/actions/workflows/rust.yml)
 
 The mission is to develop a high-performance and safe BGP implementation; an experiment to implement aged and rusty BGP protocol in a modern language. RustyBGP is [much faster](https://elegantnetwork.github.io/posts/bgp-perf5-1000-internet-neighbors/) than other OSS implementations. One reason of the high performance is that RustyBGP is designed to exploit multicore processors. Here is a CPU usage comparison with FRR 7.5 during processing 32 peers with 800K prefixes each; RustyBGP (left) uses all the cores while FRR uses only few.
 
